@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="04.07.2020.h" />
+    <ClInclude Include="05.09.2020.h" />
     <ClInclude Include="06_06_20.h" />
     <ClInclude Include="11.07.2020.h" />
     <ClInclude Include="13.06.2020.h" />
@@ -148,6 +149,7 @@
     <ClInclude Include="22.08.2020.h" />
     <ClInclude Include="25.07.2020.h" />
     <ClInclude Include="27.06.2020.h" />
+    <ClInclude Include="29.08.20.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CW_Online.cpp" />
