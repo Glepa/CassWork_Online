@@ -6,8 +6,13 @@
 //#include"18.07.2020.h"
 //#include"25.07.2020.h"
 //#include"29.08.20.h"
-#include"05.09.2020.h"
+//#include"05.09.2020.h"
+#include"12.09.2020.h"
 #include<iostream>
+#include<vector>
+#include<list>
+#include<cstdlib>
+#include<ctime>
 
 using namespace std;
 int main() {
@@ -24,13 +29,35 @@ int main() {
 	//catch (string str) {
 	//	cout << "\n Err! " << str;
 	//}
-	Dictonary dic("Hello");
+	//--------------------------------------
+	/*Dictonary dic("Hello");
 	dic.addWord("World");
 	dic.addWord("p_pot");
 	SearchWord search; 
 	if (search(dic, "Hello")) cout << "\nOk!";
 	else cout << "\n No word!";
 	if (search(dic, "Word")) cout << "\nOk!";
-	else cout << "\n No word!";
+	else cout << "\n No word!";*/
+//---------------------------------------------
+	vector<int>vect(100);
+	list<int>lst(100);
+	srand(time(NULL));
+	auto iterV = vect.begin();
+	auto iterVEnd = vect.end();
+	auto iterL = lst.begin();
+	auto iterLEnd = lst.end();
+	for (; iterV != vect.end() && iterL!=lst.end(); ++iterV, ++iterL) {
+		*iterV = rand() % 100;
+		*iterL = rand() % 100;
+	}
+	 iterV = vect.begin();
+	 iterL = lst.begin();
+	auto Collection = newColl(iterV, iterVEnd, iterL,iterLEnd);
+	auto Collection2 = understudy(iterV, iterVEnd, iterL, iterLEnd);
+	cout << "\n\n";
+	for (int& a : Collection2) {
+		cout << setw(3) << a << ' ';
+	}
+	return 0;
 }
 

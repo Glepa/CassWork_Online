@@ -143,6 +143,7 @@
     <ClInclude Include="05.09.2020.h" />
     <ClInclude Include="06_06_20.h" />
     <ClInclude Include="11.07.2020.h" />
+    <ClInclude Include="12.09.2020.h" />
     <ClInclude Include="13.06.2020.h" />
     <ClInclude Include="18.07.2020.h" />
     <ClInclude Include="20.06.2020.h" />
