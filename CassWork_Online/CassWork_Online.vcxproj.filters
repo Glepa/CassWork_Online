@@ -51,6 +51,9 @@
     <ClInclude Include="12.09.2020.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="19.09.2020.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CW_Online.cpp">
